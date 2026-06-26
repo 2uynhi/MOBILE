@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<resources></resources>
+<resources>
+    <string name="str_employee_right">Nhân viên</string>
+    <string name="str_admin_right">Quản trị viên</string>
+    <string name="str_employeeid">Mã nhân viên</string>
+    <string name="str_employee_name">Tên nhân viên</string>
+    <string name="str_phone_number">Số điện thoại</string>
+    <string name="str_ask_exit">Bạn có chắc chắn muốn thoát?</string>
+    <string name="str_confirm_delete">Xác nhận xóa</string>
+    <string name="str_delete_message">Bạn có chắc chắn muốn xóa không?</string>
+    <string name="str_yes">Có</string>
+    <string name="str_no">Không</string>
+    <string name="str_delete_success">Xóa thành công</string>
+    <string name="str_save_success">Lưu thành công</string>
+    <string name="str_select_to_delete">Cần chọn nhân viên để xóa</string>
+    <string name="str_confirm_exit">Xác nhận thoát</string>
+    <string name="str_employee_management">Quản lý nhân viên</string>
+    <string name="str_department">Department</string>
+    <string name="str_birthplace">Birthplace</string>
+    <string name="str_category_statistci">Category statistic</string>
+</resources>

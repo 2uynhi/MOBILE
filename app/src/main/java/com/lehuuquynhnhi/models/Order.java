@@ -1,0 +1,68 @@
+package com.lehuuquynhnhi.models;
+
+import java.io.Serializable;
+import java.util.Date;
+
+public class Order implements Serializable {
+    private String orderId;
+    private String customerId;
+    private String employeeId;
+    private Date orderDate;
+    private OrderStatus orderStatus;
+
+    public Order() {
+    }
+
+    public Order(String orderId, String customerId, String employeeId, Date orderDate, OrderStatus orderStatus) {
+        this.orderId = orderId;
+        this.customerId = customerId;
+        this.employeeId = employeeId;
+        this.orderDate = orderDate;
+        this.orderStatus = orderStatus;
+    }
+
+    public String getOrderId() {
+        return orderId;
+    }
+
+    public void setOrderId(String orderId) {
+        this.orderId = orderId;
+    }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
+
+    public String getEmployeeId() {
+        return employeeId;
+    }
+
+    public void setEmployeeId(String employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public Date getOrderDate() {
+        return orderDate;
+    }
+
+    public void setOrderDate(Date orderDate) {
+        this.orderDate = orderDate;
+    }
+
+    public OrderStatus getOrderStatus() {
+        return orderStatus;
+    }
+
+    public void setOrderStatus(OrderStatus orderStatus) {
+        this.orderStatus = orderStatus;
+    }
+
+    @Override
+    public String toString() {
+        return orderId + " - " + orderDate;
+    }
+}

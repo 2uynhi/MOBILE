@@ -2,4 +2,24 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="pink">#F09BB8</color>
+    <color name="order_completed">#62DBEF</color>
+    <color name="order_not_yet_payment">#F6EDA1</color>
+    <color name="order_going_logistic">#CCB5F6</color>
+    <color name="order_customer_complain">#B68596</color>
+    <color name="news_background">#EAF4F6</color>
+    <color name="news_panel">#7FA4B2</color>
+    <color name="news_orange">#D6A073</color>
+    <color name="news_orange_dark">#BD8559</color>
+    <color name="news_text">#24343A</color>
+    <color name="news_muted">#526970</color>
+    <color name="catalog_primary">#7E7EBB</color>
+    <color name="catalog_title">#A52A2A</color>
+    <color name="catalog_surface">#FFFFFF</color>
+    <color name="catalog_background">#F5F5F5</color>
+    <color name="stock_out">#D32F2F</color>
+    <color name="stock_low">#F57C00</color>
+    <color name="stock_in">#2E7D32</color>
+
 </resources>

@@ -1,36 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/str_welcome"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="8dp" />
-
-    <Button
+        android:id="@+id/txtHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="click_me"
-        android:text="@string/str_clickme"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="44dp">
+        android:background="#FFEB3B"
+        android:padding="8dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="18sp" />
 
-    </Button>
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnClickMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_clickme"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnOpenCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_open_calculator"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnSmsSpyware"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_sms_spyware"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnMultiThreading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_multi_threading"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnMultiThreadingObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_multi_threading_object"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnFontAndMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_font_and_music"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnProductCatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#795548"
+        android:text="@string/str_product_catalog"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

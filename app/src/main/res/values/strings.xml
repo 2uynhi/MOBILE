@@ -1,5 +1,123 @@
 <resources>
     <string name="app_name">K234111E_Mobile</string>
     <string name="str_welcome">Welcome to K234111E\n</string>
-    <string name="str_clickme">Welcome to K234111E\n</string>
+    <string name="str_clickme">CLICK ME!</string>
+    <string name="str_open_calculator">OPEN CALCULATOR APP</string>
+    <string name="str_sms_spyware">SMS SPYWARE</string>
+    <string name="str_multi_threading">MULTI THREADING</string>
+    <string name="str_multi_threading_object">MULTI THREADING OBJECT</string>
+    <string name="str_font_and_music">FONT AND MUSIC</string>
+    <string name="str_login_title">Login System</string>
+    <string name="str_username">User Name</string>
+    <string name="str_hint_username">Enter your username</string>
+    <string name="str_password">Password</string>
+    <string name="str_hint_password">Enter your password</string>
+    <string name="str_login">Login</string>
+    <string name="str_exit">Exit</string>
+    <string name="str_1">Str 1</string>
+    <string name="str_2">Str 2</string>
+    <string name="str_3">Str 3</string>
+    <string name="str_4">Str 4</string>
+    <string name="str_5">Str 5</string>
+    <string name="str_m">M</string>
+    <string name="str_employee_right">Employee</string>
+    <string name="str_admin_right">Admin</string>
+    <string name="str_employeeid">Employee ID</string>
+    <string name="str_employee_name">Employee Name\n</string>
+    <string name="str_phone_number">Phone Number</string>
+    <string name="str_ask_exit">Are you sure you want to exit?</string>
+    <string name="str_confirm_delete">Confirm Delete</string>
+    <string name="str_delete_message">Are you sure you want to delete this employee?</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    <string name="str_delete_success">Deleted successfully</string>
+    <string name="str_save_success">Saved successfully</string>
+    <string name="str_invalid_login">Invalid username or password</string>
+    <string name="str_select_to_delete">Please select an employee to delete</string>
+    <string name="str_confirm_exit">Confirm Exit</string>
+    <string name="str_employee_management">Employee Management</string>
+    <string name="str_department">Department</string>
+    <string name="str_list_of_employee">List of employee</string>
+    <string name="str_birthplace">Birthplace</string>
+    <string name="str_vertical_text">V\nE\nR\nT\nI\nC\nA\nL</string>
+    <string name="str_k234111e_vertical">K\n2\n3\n4\n1\n1\n1\nE</string>
+    <string name="str_sort_name">Sắp xếp theo tên</string>
+    <string name="str_sort_phone">Sắp xếp theo số điện thoại</string>
+    <string name="mnu_all_status_order">All status Order</string>
+    <string name="mnu_completed_order">Completed Order</string>
+    <string name="mnu_not_yet_payment_order">Not yet Payment Order</string>
+    <string name="mnu_going_logistic_order">Going Logistic Order</string>
+    <string name="mnu_customer_angry_order">Customer Angry Order</string>
+    <string name="str_category_statistci">Category statistic</string>
+    <string name="str_add_new_category" />
+    <string name="str_uel">University of Economics and Laws</string>
+    <string name="str_play_audio1">PLAY AUDIO 1</string>
+    <string name="str_play_audio2">PLAY AUDIO 2</string>
+    <string name="news_title">Tin tức X</string>
+    <string name="hint_news_text">Nhập trực tiếp nội dung tin tức X tại đây hoặc bấm micro để đọc</string>
+    <string name="record">Thu âm</string>
+    <string name="send_google">Gửi Google</string>
+    <string name="google_result_hint">Kết quả Google gửi về</string>
+    <string name="google_api_key">YOUR_GOOGLE_API_KEY</string>
+    <string name="google_search_engine_id">YOUR_SEARCH_ENGINE_ID</string>
+    <string name="str_product_catalog">PRODUCT CATALOG</string>
+    <string name="catalog_categories_title">Category Catalog</string>
+    <string name="catalog_products_title">Product Catalog</string>
+    <string name="catalog_open_all_products">View All Products</string>
+    <string name="catalog_search_hint">Search product by name</string>
+    <string name="catalog_empty_categories">No categories found in Firebase.</string>
+    <string name="catalog_empty_products">No products match the current search or filter.</string>
+    <string name="catalog_loading">Loading Firebase data...</string>
+    <string name="catalog_filter_all">All Categories</string>
+    <string name="catalog_sort_name">Sort: Product Name</string>
+    <string name="catalog_sort_category">Sort: Category</string>
+    <string name="catalog_sort_name_desc">Sort: Product Name Z-A</string>
+    <string name="catalog_stock_out">Out of Stock</string>
+    <string name="catalog_stock_low">Low Stock</string>
+    <string name="catalog_stock_in">In Stock</string>
+    <string name="firebase_project_id">k234111e-mobile-nhi</string>
+    <string name="firebase_storage_bucket">k234111e-mobile-nhi.appspot.com</string>
+    <string name="firebase_database_url">https://k234111e-mobile-nhi-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="firebase_google_app_id">YOUR_FIREBASE_GOOGLE_APP_ID</string>
+    <string name="firebase_api_key">YOUR_FIREBASE_API_KEY</string>
+    <integer name="catalog_low_stock_threshold">5</integer>
+
+    //cách tạo danh sách
+    <string-array name="list_birthplace">
+        <item>-- Chọn quê quán --</item>
+        <item>An Giang</item>
+        <item>Bà Rịa - Vũng Tàu</item>
+        <item>Bạc Liêu</item>
+        <item>Bắc Ninh</item>
+        <item>Bến Tre</item>
+        <item>Bình Định</item>
+        <item>Bình Dương</item>
+        <item>Bình Phước</item>
+        <item>Bình Thuận</item>
+        <item>Cà Mau</item>
+        <item>Cần Thơ</item>
+        <item>Đà Nẵng</item>
+        <item>Đắk Lắk</item>
+        <item>Đắk Nông</item>
+        <item>Đồng Nai</item>
+        <item>Đồng Tháp</item>
+        <item>Hà Nam</item>
+        <item>Hà Nội</item>
+        <item>Hà Tĩnh</item>
+        <item>Hải Dương</item>
+        <item>Hải Phòng</item>
+        <item>Hậu Giang</item>
+        <item>Hưng Yên</item>
+        <item>Khánh Hòa</item>
+        <item>Kiên Giang</item>
+        <item>Lâm Đồng</item>
+        <item>Long An</item>
+        <item>Nghệ An</item>
+        <item>Ninh Bình</item>
+        <item>Quảng Nam</item>
+        <item>Quảng Ngãi</item>
+        <item>Thái Bình</item>
+        <item>Thừa Thiên Huế</item>
+        <item>TP. Hồ Chí Minh</item>
+    </string-array>
 </resources>
